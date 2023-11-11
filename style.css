@@ -1,0 +1,1009 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5em 1em;
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); */
+    height: 50px;
+}
+
+.logo1 {
+    width: 277px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+    font-size: 1.1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    margin: 0 .2em;
+    padding: .3em .5em;
+}
+
+.btn-get-info,
+.btn-apply-now {
+    padding: .6em;
+    font-size: 1.02rem;
+    font-weight: 600;
+    margin: 0 .5em;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn-get-info {
+    background-color: black;
+    color: white;
+}
+
+.btn-apply-now {
+    background-color: #f3b300;
+}
+
+.active-nav-link {
+    font-weight: 900;
+    border-bottom: 5px solid #29413b;
+}
+
+.header-bottom {
+    font-size: .9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc627;
+    height: 60px;
+}
+
+.header-bottom a {
+    color: black;
+}
+
+.tag-line span {
+    font-weight: 400;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    background-color: #1f3933;
+    color: white;
+    height: 500px;
+    padding-top: 10em;
+    overflow: hidden;
+}
+
+.banner-img {
+    position: relative;
+    bottom: 100px;
+    width: 150%;
+    right: 100px;
+}
+
+.banner-tag {
+    font-size: 3rem;
+}
+
+.banner-left {
+    margin-left: 5em;
+    position: relative;
+}
+
+.scribble {
+    position: absolute;
+    bottom: 380px;
+}
+
+.banner-desc {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.feedback {
+    border: 2px solid red;
+    /* width:10%; */
+    color: black;
+    background-color: #ffc627;
+    border: none;
+    padding: 1em 1.2em;
+    border-radius: 5px;
+    transform: rotate(270deg);
+    z-index: 20;
+    position: fixed;
+    left: -22px;
+    top: 250px;
+}
+
+.feedback:hover {
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+}
+
+.second-nav {
+    color: #fafbfb;
+    background-color: white;
+    opacity: 0.3;
+    /* font-weight: 600; */
+    font-size: 1.2rem;
+}
+
+.second-nav a {
+    text-decoration: none;
+    margin: 1em 2em;
+}
+
+.ad {
+    /* border:2px solid red; */
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.ad h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.8em;
+    font-weight: 300;
+}
+
+.ad h3 {
+    font-size: 1.1rem;
+    margin-top: 2em;
+}
+
+.ad .p1,
+.p2 {
+    line-height: 1.5;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.p2 a {
+    color: black;
+}
+
+.cup {
+    /* height: 400px; */
+    background-color: #1f3933;
+    color: white;
+    padding: 3em 6em;
+    display: flex;
+    position: relative;
+    height: 600px;
+}
+
+.cup .cup-title {
+    width: 40%;
+}
+
+.cup-img {
+    width: 60%;
+}
+
+.scribble-2 {
+    width: 30%;
+    position: absolute;
+    top: 130px;
+    left: 110px;
+}
+
+.cup-img img {
+    width: 100%;
+    position: relative;
+    top: 150px;
+    right: 150px;
+}
+
+.degree-bg {
+    overflow: hidden;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('https://starbucks.asu.edu/img/degrees-fixed-bg.a09c6be5.jpg');
+    height: 90vh;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-position: 50%;
+    z-index: 9;
+}
+
+.degree-box {
+    background-color: #29413b;
+    color: white;
+    width: 30%;
+    height: 200px;
+    margin: 2em auto;
+    padding: 2em;
+    text-align: center;
+    position: relative;
+}
+
+.degree-box h1 {
+    font-size: 2rem;
+}
+
+.degree-box button {
+    background-color: #ffc627;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.scribble-3 {
+    width: 74%;
+    position: absolute;
+    top: 90px;
+    left: 57px;
+}
+
+.scroll-for-more {
+    width: 30%;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-more {
+    margin-top: 2em;
+    font-weight: 500;
+}
+
+.apply {
+    display: flex;
+    padding: 2em 3em;
+    margin-top: 80px;
+}
+
+.how-to-apply-img {
+    background-image: url('https://starbucks.asu.edu/img/How_to_Apply.1212f72d.svg');
+    min-height: 600px;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    transform: scale(0.9);
+}
+
+.how-apply {
+    margin-bottom: 100px;
+}
+
+.how-apply h1 {
+    font-size: 40px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.apply-intro {
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+}
+
+.how-apply-list {
+    justify-content: center;
+    width: 550px;
+    /* height: 340px; */
+    font-size: 1.1rem;
+    font-weight: 499;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    z-index: 2;
+    /* border:2px solid red; */
+    position: relative;
+    left: 80px;
+    bottom: 30px;
+    list-style: none;
+    counter-reset: increase;
+}
+
+.how-apply-list li a {
+    color: #212529;
+}
+
+.how-apply-list::before {
+    height: 65%;
+    width: 1px;
+    left: -3px;
+    background-color: #185728;
+    content: "";
+    position: absolute;
+    top: calc(.5em - 2px);
+}
+
+.how-apply-list li {
+    position: relative;
+}
+
+.how-apply-list li h3 {
+    position: absolute;
+    font-size: .8rem;
+    height: 20px;
+    width: 20px;
+    background-color: #185728;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    top: -8px;
+    left: -53px;
+}
+
+.path {
+    display: flex;
+    padding: 2em 3em;
+    margin-top: 80px;
+}
+
+.path-img {
+    background-image: url("https://starbucks.asu.edu/img/military.587da148.png");
+    background-position: center center;
+    min-height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 115px;
+}
+
+.path-for-mltry {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* border: 2px solid red; */
+    font-weight: 499;
+    color: #212529;
+    left: -35px;
+    bottom: -65px;
+    height: 450px;
+    z-index: 2;
+    background-color: #fff;
+}
+
+.path-for-mltry h1 {
+    font-size: 36px;
+    font-weight: 550;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    text-align: justify;
+}
+
+.path-for-mltry p {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: .6rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.path-for-mltry img {
+    /* margin-right: 0; */
+    margin-left: -200px;
+}
+
+.carousel {
+    display: flex;
+}
+
+.slides {
+    padding: 2em 3em;
+    margin-top: 80px;
+    position: relative;
+}
+
+.slides-content {
+    position: relative;
+    width: 110%;
+    padding-right: 15px;
+    padding-left: 25px;
+}
+
+.slides-content img {
+    padding-bottom: 30px;
+    margin-left: 60px;
+    margin-top: 150px;
+}
+
+.slides-content .p1 {
+    font-size: 24px;
+    color: #29413b;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    margin-left: 60px;
+    font-weight: 550;
+    text-align: left;
+    line-height: 28px;
+}
+
+.slides-content .p2 {
+    font-size: 16px;
+    color: #29413b;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.slides-img {
+    background-image: url("https://starbucks.asu.edu/img/Testimonial-graphic-1.17c2cacd.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 550px;
+    margin-left: 150px;
+}
+
+.agile-dots {
+    display: flex;
+}
+
+.agile-dots li {
+    list-style: none;
+    padding: 3px;
+}
+
+.agile-dot button {
+    cursor: pointer;
+    display: block;
+    margin: 0 3px;
+    font-size: 0;
+    line-height: 0;
+    width: 15px;
+    border: 1px solid #29413b;
+    height: 15px;
+    -webkit-appearance: none;
+    border-radius: 50%;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.agile-action {
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+}
+
+.video-container {
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://starbucks.asu.edu/img/online-degree-bg.c9cb6a0c.jpg');
+    height: 470px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.video-title {
+    color: white;
+    width: 30%;
+    /* margin-left: 20px; */
+    position: relative;
+    left: 30px;
+}
+
+.video-title h2 {
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.video-title span {
+    background-color: white;
+    height: 4px;
+    display: inline-block;
+    width: 20%;
+    position: absolute;
+    bottom: 220px;
+}
+
+.video-container button {
+    background: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.video-title p {
+    font-weight: 16px;
+    line-height: 1.5;
+}
+
+.get-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 10rem 3rem;
+}
+
+.footer {
+    margin-top: 3em;
+}
+
+.footer-links {
+    display: flex;
+    background-color: #ffc107;
+    justify-content: space-around;
+}
+
+.footer-links ul li {
+    list-style: none;
+    margin: 0 1em;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.footer-links ul {
+    display: flex;
+    margin-top: 50px;
+}
+
+.footer-img {
+    width: 40%;
+}
+
+.footer-img img {
+    width: 100%;
+}
+
+.footer-last ul {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.footer-last ul li {
+    list-style: none;
+}
+
+.footer-last ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    width: 0% !important;
+}
+
+.bootstrap-select>.dropdown-toggle {
+    width: 27% !important;
+}
+
+input {
+    height: 30px;
+    border: 1px solid #adadad;
+    /* outline: none;*/
+    border-radius: 3px;
+}
+
+.telephone {
+    width: 70%;
+    padding-left: 60px;
+}
+
+.btn-default {
+    border: none !important;
+}
+
+.form {
+    margin-left: 100px;
+    width: 50%;
+}
+
+.ln {
+    margin-left: 271px;
+}
+
+.lname {
+    margin-left: 90px;
+}
+
+.fname,
+.lname {
+    width: 40%;
+}
+
+label,
+input {
+    margin: 1em 0;
+}
+
+.pfn,
+.email {
+    width: 70%;
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.countries {
+    position: relative;
+}
+
+.btn-default {
+    position: absolute !important;
+    top: -43px !important;
+}
+
+.degree-program {
+    height: 30px;
+    width: 422px;
+    border: 1px solid #be1818;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.quality-support {
+    height: 540px;
+    background-color: #1f3933;
+    /* padding-top: 2em; */
+    overflow: hidden;
+}
+
+.sup {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    /* margin-top: 2em; */
+}
+
+.sup-l {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 38%;
+}
+
+.sup-l h1 {
+    font-size: 48px;
+    text-align: left;
+}
+
+.sup-l p {
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+    bottom: 48px;
+    right: 42px;
+}
+
+.sup-r img {
+    position: relative;
+    top: 4.4em;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-tag {
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    margin-top: 4em;
+}
+
+.support-tag h1 {
+    font-size: 32px;
+}
+
+.support-tag p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.divider {
+    height: 4px;
+    width: 17%;
+    background-color: #29413b;
+    margin-top: 1.5em;
+}
+
+.categories {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 20px;
+}
+
+.info {
+    width: 25%;
+    height: 250px;
+    background-color: #29413b;
+    color: white;
+    padding: 40px;
+    margin-bottom: 1.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.info h1 {
+    font-weight: 24px;
+}
+
+.info p {
+    font-weight: 16px;
+}
+
+.info:hover {
+    background-color: #fff;
+    color: #29413b;
+    border: 1px solid #29413b;
+    cursor: pointer;
+}
+
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.success {
+    padding-top: 120px;
+}
+
+.success-inner {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.success-title {
+    width: 30%;
+    /* text-align: center; */
+}
+
+.success-graphic {
+    width: 50%;
+    margin-left: auto;
+    position: relative;
+}
+
+.success-title h3 {
+    font-size: 36px;
+}
+
+.success-title p {
+    font-size: 18px;
+    padding-bottom: 40px;
+    line-height: 1.5;
+}
+
+.success-title button {
+    background-color: black;
+    color: white;
+    padding: 1em;
+    border: none;
+    border-radius: 30px;
+}
+
+.hr {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+}
+
+.hr h3 {
+    color: rgb(0, 98, 65);
+    right: 0px;
+    top: 5px;
+    z-index: 2;
+    width: 10%;
+    position: relative;
+    top: 30px;
+    left: 578px;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.long-img {
+    position: relative;
+    left: 20px;
+}
+
+.s-g-1 {
+    position: absolute;
+    top: 0;
+}
+
+.group-1,
+.group-2 {
+    display: flex;
+}
+
+.sg-img {
+    position: absolute;
+    top: 88px;
+    left: -71px;
+}
+
+.sg-desc {
+    position: relative;
+    left: 187px;
+    top: 100px;
+    width: 80%;
+}
+
+.sh {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+.st {
+    font-size: 16px;
+    font-weight: bold;
+    color: #006340!important;
+}
+
+.sd {
+    font-size: 18px;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.hr2 {
+    position: absolute;
+    top: 400px;
+    width: 100%;
+}
+
+.hr2 h3 {
+    color: rgb(255, 187, 0);
+    right: 15px;
+    top: 5px;
+    z-index: 2;
+    width: 10%;
+    position: relative;
+    left: 575px;
+    top: 29px;
+}
+
+.s-g-2 {
+    position: absolute;
+    top: 500px;
+}
+
+.sg-img2 {
+    position: absolute;
+    top: 0;
+    left: -71px;
+}
+
+.sg-desc2 {
+    position: relative;
+    left: 187px;
+    top: 20px;
+    width: 80%;
+}
+
+.s-g-3 {
+    position: absolute;
+    top: 1000px;
+}
+
+.hear {
+    padding-top: 120px;
+    background: url('https://starbucks.asu.edu/img/Testimonial_Illustrations.031328ab.svg');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 700px;
+}
+
+.testimonial {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.testimonial h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 18px;
+    font-size: 36px;
+}
+
+.testimonial .p1 {
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.testimonial .p2 {
+    font-weight: 300;
+    padding-top: 42px;
+}
+
+.radios button {
+    cursor: pointer;
+    margin: 10px 3px;
+    font-size: 0;
+    line-height: 0;
+    width: 24px;
+    border: 4px solid #29413b;
+    height: 24px;
+    -webkit-appearance: none;
+    border-radius: 50%;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.check-box h5 {
+    margin-top: -35px;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+.check-box p {
+    font-size: 12px;
+    font-family: stb-light!important;
+}
+
+.btn-form-submit {
+    padding: .6em;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1em;
+    border-radius: 50px;
+    border: none;
+    background-color: #29413b;
+    color: #fff;
+    padding: 5px 25px;
+    margin-left: 450px;
+}
+
+/* .navbar-stick {
+    border: 2px solid red;
+    width: 100%;
+    text-align: center;
+} */

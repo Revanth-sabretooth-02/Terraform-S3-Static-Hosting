@@ -3,10 +3,12 @@ This repository, "Terraform-S3-Static-Hosting," offers concise Terraform scripts
 Enjoy seamless hosting! 🌐
 
 Prerequisites
+
 Terraform
 AWS account and credentials configured
 
 Deployment Steps
+
 Clone this repository: git clone https://github.com/Revanth-sabretooth-02/terraform-s3-static-website.git
 Navigate to the project directory: cd terraform-s3-static-website
 Initialize Terraform: terraform init
@@ -15,6 +17,7 @@ Deploy the infrastructure: terraform apply
 Access your static website at the provided S3 bucket URL.
 
 File Upload
+
 Place your static files in the website directory, and Terraform will automatically upload them during deployment.
 
 S3 Bucket Policy

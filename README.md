@@ -4,7 +4,7 @@ Prerequisites
 Terraform
 AWS account and credentials configured
 Deployment Steps
-Clone this repository: git clone https://github.com/yourusername/terraform-s3-static-website.git
+Clone this repository: git clone https://github.com/Revanth-sabretooth-02/terraform-s3-static-website.git
 Navigate to the project directory: cd terraform-s3-static-website
 Initialize Terraform: terraform init
 Customize terraform.tfvars with your AWS credentials and desired settings.
